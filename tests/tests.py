@@ -16,8 +16,8 @@ except ImportError:
     # Python 3 Support
     from io import StringIO
 
-sys.path.append('pydsl')
-from pydsl.stackdriverjsonlogger import StackdriverJsonFormatter
+sys.path.append('pysdl')
+from pysdl.stackdriverjsonlogger import StackdriverJsonFormatter
 
 
 class TestStackDriverFormatter(unittest.TestCase):
