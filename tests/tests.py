@@ -17,7 +17,7 @@ except ImportError:
     from io import StringIO
 
 sys.path.append('pysdl')
-from pysdl.stackdriverjsonlogger import StackdriverJsonFormatter
+from src.pysdl import StackdriverJsonFormatter
 
 
 class TestStackDriverFormatter(unittest.TestCase):
