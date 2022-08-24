@@ -6,7 +6,7 @@ logging_dict = {
     'formatters': {
         "json": {
             '()': "pysdl.stackdriverjsonlogger.StackdriverJsonFormatter",
-            'format': "%(levelname)s %(asctime)s %(module)s %(process)s %(thread)s %(message)s"
+            'format': "%(levelname)s %(asctime)s %(module)s %(funcName)s %(lineno)s %(process)s %(thread)s %(message)s"
         },
     },
     'handlers': {
