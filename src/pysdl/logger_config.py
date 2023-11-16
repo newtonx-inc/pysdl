@@ -26,6 +26,11 @@ logging_dict = {
             'handlers': ['console'],
             'level': 'INFO',
         },
+        # Change request handling logs to only log when an error happens
+        'django.request': {
+            'handlers': ['console'],
+            'level': 'ERROR',
+        },
         # DB events and sql
         'django.db.backends': {
             'handlers': ['console'],
